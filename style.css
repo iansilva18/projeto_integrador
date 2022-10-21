@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap');
+h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 71px;
+    color: #595858;
+}
+
+.tela {
+    position: absolute;
+    width: 1201px;
+    height: 1024px;
+    left: 700px;
+    top: 0px;
+    background: #F5E9DD;
+}
+
+.imgTela {
+    position: absolute;
+    width: 170.68px;
+    height: 100px;
+    left: 1680px;
+    top: 58px
+}
+
+h1 {
+    position: absolute;
+    width: 368px;
+    height: 95px;
+    left: 131px;
+    top: 100px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 71px;
+    color: #595858;
+}
+
+.imgBody {
+    position: absolute;
+    width: 606px;
+    height: 634px;
+    left: 950px;
+    top: 195px;
+}
+
+.entrada1 {
+    position: absolute;
+    width: 415px;
+    height: 75px;
+    left: 109px;
+    top: 364px;
+    background: #D7CFCF;
+    background: url(./img/Rectangle\ 4.png);
+}
+
+.senha {
+    position: absolute;
+    width: 415px;
+    height: 75px;
+    left: 107px;
+    top: 512px;
+}
