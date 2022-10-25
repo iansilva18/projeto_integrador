@@ -45,20 +45,68 @@ h1 {
     top: 195px;
 }
 
-.entrada1 {
-    position: absolute;
-    width: 415px;
-    height: 75px;
-    left: 109px;
-    top: 364px;
-    background: #D7CFCF;
-    background: url(./img/Rectangle\ 4.png);
+.input-box {
+    display: block;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    position: relative;
+    top: 311px;
+    left: 100px;
+    height: 600px;
+    width: 600px;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 1.5rem 1.2rem;
+    width: 68%;
+    border: none;
+    box-shadow: 1px 1px 6px #0000001c;
+    background-color: #4141411c;
+}
+
+.input-box input:hover {
+    background-color: #4141411c;
+}
+
+.input-box input:focus-visible {
+    outline: 0.5px solid #F5E9DD;
+}
+
+.input-box input::placeholder {
+    color: #695e6d;
+    font-size: 20px;
 }
 
 .senha {
-    position: absolute;
-    width: 415px;
-    height: 75px;
-    left: 107px;
-    top: 512px;
+    display: block;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    height: 600px;
+    width: 600px;
+}
+
+.senha input {
+    margin: 0.6rem 0;
+    padding: 1.5rem 1.2rem;
+    width: 68%;
+    border: none;
+    box-shadow: 1px 1px 6px #0000001c;
+    background-color: #4141411c;
+}
+
+.senha input:hover {
+    background-color: #4141411c;
+}
+
+.senha input:focus-visible {
+    outline: 0.5px solid #F5E9DD;
+}
+
+.senha input::placeholder {
+    color: #695e6d;
+    font-size: 20px;
 }
